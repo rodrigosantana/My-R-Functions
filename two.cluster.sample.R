@@ -1,8 +1,24 @@
-### Funtion to implement a two stage cluster sample in R...
-two.cluster.sample <- function(M, m, N, n, prob1 = NULL, prob2 = NULL, 
+########################################################################
+## Description: Function to implement a two stage cluster sample in R
+##
+## Maintainer: Rodrigo Sant'Ana
+## Author: Rodrigo Sant'Ana
+## Created: Ter Dez 30 21:30:37 2014 (-0200)
+## Version: 0.0.1
+## Last-Updated: Ter Dez 30 21:31:38 2014 (-0200)
+##           By: Rodrigo Sant'Ana
+##
+## Database info: No data info
+##
+### Commentary:
+##
+### Code:
+########################################################################
+
+two.cluster.sample <- function(M, m, N, n, prob1 = NULL, prob2 = NULL,
 			       replace1 = FALSE, replace2 = FALSE){
     ## Two Stage Cluster Sample function...
-    ## M is a vector with references of the first stage clusters to be 
+    ## M is a vector with references of the first stage clusters to be
     ## sampled...
     ## m is the desired sample size in a first stage cluster...
     ## N is a vector with references of the second stage to be sampled..
@@ -21,4 +37,21 @@ two.cluster.sample <- function(M, m, N, n, prob1 = NULL, prob2 = NULL,
     return(samp)
 }
 
-
+########################################################################
+##
+## This program is free software; you can redistribute it and/or
+## modify it under the terms of the GNU General Public License as
+## published by the Free Software Foundation; either version 3, or
+## (at your option) any later version.
+##
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## General Public License for more details.
+##
+## You should have received a copy of the GNU General Public License
+## along with this program; see the file COPYING.  If not, write to
+## the Free Software Foundation, Inc., 51 Franklin Street, Fifth
+## Floor, Boston, MA 02110-1301, USA.
+##
+########################################################################
