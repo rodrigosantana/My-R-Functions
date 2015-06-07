@@ -16,6 +16,9 @@ cluster sampling in R.
 `**_ggplot_glm_diag.R_**` function is an implementation of linear
 models graphic residuals diagnostics based in ggplot2.
 
+`**_read.webzip.R_**` is a function developed to assist the download,
+unzip and load datasets in R.
+
 License
 -------
 MIT, See [LICENSE](LICENSE.md)
